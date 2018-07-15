@@ -1,1 +1,1 @@
-# SunBot-react-native
+# SunBot
