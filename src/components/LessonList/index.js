@@ -217,8 +217,8 @@ export default class LessonList extends Component {
                                         <Text
                                             style={{
                                                 height: '25%',
-                                                paddingTop: 18,
-                                                fontSize: 16,
+                                                paddingTop: Dimensions.get('window').width / 50,
+                                                fontSize: Dimensions.get('window').width / 40,
                                                 color: '#8A3618',
                                                 fontFamily: 'Pacifico',//Platform.OS==='ios'?'Pacifico':"r0c0i - Linotte Bold"
                                             }}
@@ -263,7 +263,8 @@ export default class LessonList extends Component {
                                                 marginLeft: 5,
                                                 marginRight: 5,
                                                 textAlign: 'center',
-                                                color: '#0C5050'
+                                                color: '#0C5050',
+                                                fontSize: Dimensions.get('window').width / 50
                                             }}
                                         >
                                             {item.name}
@@ -314,8 +315,8 @@ export default class LessonList extends Component {
                 </View>
                 <Animated.Image
                     style={{
-                        width: '20%',
-                        height: '30%',
+                        width: Dimensions.get('window').width / 5,
+                        height: 3 * Dimensions.get('window').height / 10,
                         position: 'absolute',
                         left: 20,
                         bottom: 20,
@@ -332,11 +333,11 @@ export default class LessonList extends Component {
                 <ImageBackground
                     style={styles.viewText}
                     source={require('../../../assets/new-pannel-description.png')}
-                    resizeMode='contain'
+                    resizeMode='stretch'
                 >
                     <Text
                         style={{
-                            fontSize: 18,
+                            fontSize: Dimensions.get('window').width / 35,
                             fontFamily: 'Pacifico',//Platform.OS==='ios'?'Pacifico':"r0c0i - Linotte Bold",
                             color: '#000',
                         }}
@@ -346,90 +347,12 @@ export default class LessonList extends Component {
                     <Text
                         style={{
                             color: '#000',
-                            fontSize: 12,
+                            fontSize: Dimensions.get('window').width / 60,
                         }}
                     >
                         {description}
                     </Text>
                 </ImageBackground>
-                {/* <ImageBackground
-                    style={styles.viewTop}
-                    source={require('../../../assets/pannel-bottom.png')}
-                >
-                    <Animated.Image
-                        style={[styles.logo, {
-                            transform: [{
-                                translateY: this.state.bottomSunBot.interpolate({
-                                    inputRange: [0, 1],
-                                    outputRange: [Dimensions.get('window').height / 2, 10]
-                                }),
-                            }]
-                        }]}
-                        source={require('../../../assets/sunbot-right.png')}
-                        resizeMode='contain'
-                    />
-                    <View
-                        style={styles.viewBot}
-                    ></View>
-                    <View
-                        style={styles.viewText}
-                    >
-                        <Text
-                            style={{
-                                fontSize: 25,
-                                fontFamily: 'Pacifico',
-                                color: '#FFF',
-                            }}
-                        >
-                            {`Khoá ${index}`}
-                        </Text>
-                        <Text
-                            style={{
-                                color: '#FFF',
-                                fontSize: 12,
-                            }}
-                        >
-                            {description}
-                        </Text>
-                    </View>
-                    <View
-                        style={styles.bottomView}
-                    >
-                        <TouchableOpacity
-                            style={styles.buttonIcon}
-                            onPress={() => navigate('PlayVideo', {
-                                url: 'https://www.youtube.com/embed/XqZsoesa55w'
-                            })}
-                        >
-                            <Image
-                                style={styles.icon}
-                                resizeMode='contain'
-                                source={require('../../../assets/ic-stone-play.png')}
-                            />
-                        </TouchableOpacity>
-                        <TouchableOpacity
-                            style={styles.buttonIcon}
-                            onPress={() => navigate('PlayVideo', {
-                                url: 'https://www.youtube.com/embed/v2nQOUL6hWs'
-                            })}
-                        >
-                            <Image
-                                style={styles.icon}
-                                resizeMode='contain'
-                                source={require('../../../assets/ic-stone-movie.png')}
-                            />
-                        </TouchableOpacity>
-                        <TouchableOpacity
-                            style={styles.buttonIcon}
-                        >
-                            <Image
-                                style={styles.icon}
-                                resizeMode='contain'
-                                source={require('../../../assets/ic-stone-about.png')}
-                            />
-                        </TouchableOpacity>
-                    </View>
-                </ImageBackground> */}
             </ImageBackground>
         )
     }
@@ -458,10 +381,10 @@ const styles = StyleSheet.create({
     viewText: {
         position: 'absolute',
         paddingLeft: 30,
-        width: '50%',
-        height: '20%',
+        width: Dimensions.get('window').width / 2,//'45%',
+        height: Dimensions.get('window').height / 6.5,//'20%',
         justifyContent: 'center',
-        left: 150,
+        left: Dimensions.get('window').width / 5 + 5,
         bottom: 50
     },
     logo: {

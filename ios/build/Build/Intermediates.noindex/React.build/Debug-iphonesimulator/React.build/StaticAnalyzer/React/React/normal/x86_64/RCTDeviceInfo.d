@@ -1,15 +1,15 @@
 dependencies: \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Modules/RCTDeviceInfo.m \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Modules/RCTDeviceInfo.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Modules/RCTAccessibilityManager.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTEventDispatcher.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/UIUtils/RCTUIUtils.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTUtils.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Modules/RCTDeviceInfo.m \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Modules/RCTDeviceInfo.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTBridge.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTDefines.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Modules/RCTAccessibilityManager.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTAssert.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/UIUtils/RCTUIUtils.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTUtils.h

@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native-blur/ios/BlurView.m \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native-blur/ios/BlurView.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native-blur/ios/BlurEffectWithAmount.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native-blur/ios/BlurView.m \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native-blur/ios/BlurView.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native-blur/ios/BlurEffectWithAmount.h

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/SunBot/main.m \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/SunBot/AppDelegate.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/SunBot/main.m \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/SunBot/AppDelegate.h

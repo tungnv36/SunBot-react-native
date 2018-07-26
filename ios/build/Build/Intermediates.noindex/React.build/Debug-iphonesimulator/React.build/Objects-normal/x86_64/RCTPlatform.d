@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTPlatform.m \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTPlatform.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTVersion.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTPlatform.m \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTPlatform.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTDefines.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTUtils.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTAssert.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTVersion.h

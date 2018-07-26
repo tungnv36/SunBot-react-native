@@ -6,15 +6,56 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		7fwKcqWgX+Le2sFDl9nNK3vcMyc=
+		ueB0/SXNnH0Jz3sNBuR2VdkINIM=
 		</data>
 		<key>Comic Kings.ttf</key>
 		<data>
 		A8TRcQ+DVPSYxOgJJf6Ck5lUEm4=
 		</data>
+		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<data>
+		8CN5cCzwKl0+7ieNPMN/SawZQA8=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<data>
+		Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<data>
+		UU+vWjYvpE8lKAxV1lE2tUbIZA0=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<data>
+		znuKt4UiTOJWwzrlgwaYX94o/a4=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		uPxPInP5h9+ERgCm8NCXpuuMEmg=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		aHoR6mqqp0XWLqiw49+MRuFNQLk=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		DmGu9k7yBOLSfwtyNbn3zYir630=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		IUFraciW6gSFezTDl/AQ7WHPrJk=
+		HEi3mJaJHWr8xp+Y/4GJkEimi4M=
 		</data>
 		<key>Linotte.ttf</key>
 		<data>
@@ -60,6 +101,26 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/SunBotTests.xctest.dSYM/Contents/Info.plist</key>
+		<data>
+		RUvfmW7fn9hB0a88K+iNaumA41Y=
+		</data>
+		<key>PlugIns/SunBotTests.xctest.dSYM/Contents/Resources/DWARF/SunBotTests</key>
+		<data>
+		oE/5Fj8Y2dZmsZKQbvjJW01/08g=
+		</data>
+		<key>PlugIns/SunBotTests.xctest/Info.plist</key>
+		<data>
+		zzUvJSx8a6C261mPLSoBa9aZZsk=
+		</data>
+		<key>PlugIns/SunBotTests.xctest/SunBotTests</key>
+		<data>
+		sbWa50owUcRdOvVp7awn9F76+ZY=
+		</data>
+		<key>PlugIns/SunBotTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		DBd/yMnNN0VCpZfeoO/XYwJE0eo=
+		</data>
 		<key>Super Mario Bros.ttf</key>
 		<data>
 		f5Zj3f9iSYc2JIl7FP0HLSHWr7Y=
@@ -87,11 +148,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7fwKcqWgX+Le2sFDl9nNK3vcMyc=
+			ueB0/SXNnH0Jz3sNBuR2VdkINIM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZILhEnylliYCGr1Gl+CLGcadR7IE7bnEbs20xncsvkc=
+			M1WDdI1YoeKyw/hs6W5S9RnoN0CEY9BWH+TfA6pJb/s=
 			</data>
 		</dict>
 		<key>Comic Kings.ttf</key>
@@ -103,6 +164,107 @@
 			<key>hash2</key>
 			<data>
 			aC4lif/fcXZ2GZ0Se3VSQO1q/CAZ6K3UhAs6sCY83hs=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8CN5cCzwKl0+7ieNPMN/SawZQA8=
+			</data>
+			<key>hash2</key>
+			<data>
+			/R1Uy1RZ7ljX2V8ZHMhD4g8ieWHns9sj34YDK2McvfY=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
+			</data>
+			<key>hash2</key>
+			<data>
+			IvG0kD54lYvEZzfjVmXtrtBdydTUy1uFZkZXUddfTzY=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UU+vWjYvpE8lKAxV1lE2tUbIZA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ja3vToXIdN/BmsoAh4U4btDVl5lKbzndKf99CyxV6K4=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			znuKt4UiTOJWwzrlgwaYX94o/a4=
+			</data>
+			<key>hash2</key>
+			<data>
+			napzzKlhgK6Qoqz8QO+9TkyuIsW5V+s6GmClALe2lT4=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uPxPInP5h9+ERgCm8NCXpuuMEmg=
+			</data>
+			<key>hash2</key>
+			<data>
+			N77/gSJpnPT4ryPaR4IJ55aYyiiMCKjlq79qrCmGxU8=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aHoR6mqqp0XWLqiw49+MRuFNQLk=
+			</data>
+			<key>hash2</key>
+			<data>
+			unqlGEn5cq6B36PWWq/mAoeeub7L9yZ3vWK7mP9EscQ=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
+			</data>
+			<key>hash2</key>
+			<data>
+			OXS9XX1oATlfFoPHZbc7OGt7HUXfXzNrCz28TkkBo/g=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DmGu9k7yBOLSfwtyNbn3zYir630=
+			</data>
+			<key>hash2</key>
+			<data>
+			2hnwNPgdaewT28DbTqe0Gpaccdc2akBF8IjnGtISc58=
 			</data>
 		</dict>
 		<key>Linotte.ttf</key>
@@ -213,6 +375,61 @@
 			<key>hash2</key>
 			<data>
 			mOnbb2ZtuzMaOILzb+w9bzwwzdlUPaE6DLRCsaE/bvU=
+			</data>
+		</dict>
+		<key>PlugIns/SunBotTests.xctest.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RUvfmW7fn9hB0a88K+iNaumA41Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			pCkkdEjxuJ8VxGkwgHauZXomPxhn3SqGqdCNP9Cyrgc=
+			</data>
+		</dict>
+		<key>PlugIns/SunBotTests.xctest.dSYM/Contents/Resources/DWARF/SunBotTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oE/5Fj8Y2dZmsZKQbvjJW01/08g=
+			</data>
+			<key>hash2</key>
+			<data>
+			UtAkJ9F4MfV3y4EsYm5fS138eFJXstl+uAwHPmmkloU=
+			</data>
+		</dict>
+		<key>PlugIns/SunBotTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zzUvJSx8a6C261mPLSoBa9aZZsk=
+			</data>
+			<key>hash2</key>
+			<data>
+			qX05HYodH4v4CvXYQQ0mpZ0ZqKpyUBrxSEjvU4T1Rv0=
+			</data>
+		</dict>
+		<key>PlugIns/SunBotTests.xctest/SunBotTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sbWa50owUcRdOvVp7awn9F76+ZY=
+			</data>
+			<key>hash2</key>
+			<data>
+			aJEt3zfmn79baHNpeNWRf7SCEUOFENumZCs30eIDFfk=
+			</data>
+		</dict>
+		<key>PlugIns/SunBotTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DBd/yMnNN0VCpZfeoO/XYwJE0eo=
+			</data>
+			<key>hash2</key>
+			<data>
+			F8rSyfRW1RR7vENRXQePkmRKYIU8O2RzHnI//9S0aWo=
 			</data>
 		</dict>
 		<key>Super Mario Bros.ttf</key>

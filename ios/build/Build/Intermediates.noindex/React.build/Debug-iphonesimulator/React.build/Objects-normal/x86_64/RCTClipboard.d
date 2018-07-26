@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Modules/RCTClipboard.m \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Modules/RCTClipboard.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTDefines.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Modules/RCTClipboard.m \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Modules/RCTClipboard.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTDefines.h

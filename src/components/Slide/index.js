@@ -11,6 +11,7 @@ import {
 } from 'react-native'
 import Immersive from 'react-native-immersive'
 // import HTML from 'react-native-render-html';
+// var WebViewAndroid = require('react-native-webview-android');
 
 const html = ``
 
@@ -42,6 +43,18 @@ export default class Slide extends Component {
                     source={{ html, baseUrl: 'web/' }}
                     mixedContentMode='always'
                 />
+                {/* <WebViewAndroid
+                    ref="webViewAndroidSample"
+                    javaScriptEnabled={true}
+                    geolocationEnabled={false}
+                    builtInZoomControls={false}
+                    // injectedJavaScript={this.javascriptToInject()}
+                    // onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
+                    // onNavigationStateChange={this.onNavigationStateChange}
+                    // onMessage={this.onMessage}
+                    url={html} // or use the source(object) attribute...
+                    style={styles.constain} />
+                ); */}
                 {/* <HTML
                     style={{
                         flex: 1,

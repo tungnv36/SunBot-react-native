@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/DevSupport/RCTPackagerClient.m \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/../Libraries/WebSocket/RCTReconnectingWebSocket.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/DevSupport/RCTPackagerClient.m \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTDefines.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTLog.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTAssert.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTUtils.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/../Libraries/WebSocket/RCTReconnectingWebSocket.h

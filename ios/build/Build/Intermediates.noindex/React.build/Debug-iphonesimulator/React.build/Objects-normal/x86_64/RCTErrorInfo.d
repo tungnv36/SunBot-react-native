@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTErrorInfo.m \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTErrorInfo.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/React/Base/RCTJSStackFrame.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTErrorInfo.m \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTErrorInfo.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/React/Base/RCTJSStackFrame.h

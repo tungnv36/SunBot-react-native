@@ -182,8 +182,8 @@ export default class Courses extends Component {
                                     <Text
                                         style={{
                                             height: '25%',
-                                            paddingTop: 18,
-                                            fontSize: 16,
+                                            paddingTop: Dimensions.get('window').width / 50,
+                                            fontSize: Dimensions.get('window').width / 40,
                                             color: '#8A3618',
                                             fontFamily: 'Pacifico',//Platform.OS==='ios'?'Pacifico':"r0c0i - Linotte Bold",
                                             fontWeight: 'bold',
@@ -198,7 +198,7 @@ export default class Courses extends Component {
                                                 height: '30%',
                                                 alignItems: 'center',
                                                 justifyContent: 'center',
-                                                backgroundColor: '#FFF',
+                                                // backgroundColor: '#FFF',
                                                 borderRadius: 5,
                                                 padding: 10,
                                                 marginTop: 20,
@@ -212,7 +212,7 @@ export default class Courses extends Component {
                                                 height: '30%',
                                                 alignItems: 'center',
                                                 justifyContent: 'center',
-                                                backgroundColor: '#FFF',
+                                                // backgroundColor: '#FFF',
                                                 borderRadius: 5,
                                                 padding: 10,
                                                 marginTop: 20,
@@ -226,10 +226,11 @@ export default class Courses extends Component {
                                     <Text
                                         style={{
                                             height: '35%',
-                                            marginLeft: Platform.OS === 'ios' ? 5 : 20,
-                                            marginRight: Platform.OS === 'ios' ? 5 : 20,
+                                            marginLeft: Platform.OS === 'ios' ? 20 : 20,
+                                            marginRight: Platform.OS === 'ios' ? 20 : 20,
                                             textAlign: 'center',
-                                            color: '#FFFFFF'
+                                            color: '#FFFFFF',
+                                            fontSize: Dimensions.get('window').width / 50
                                         }}
                                     >
                                         {item.name}
@@ -279,8 +280,8 @@ export default class Courses extends Component {
                 </View>
                 <Animated.Image
                     style={{
-                        width: '20%',
-                        height: '30%',
+                        width: Dimensions.get('window').width / 5,
+                        height: 3 * Dimensions.get('window').height / 10,
                         position: 'absolute',
                         left: 20,
                         bottom: 20,
@@ -297,11 +298,11 @@ export default class Courses extends Component {
                 <ImageBackground
                     style={styles.viewText}
                     source={require('../../../assets/new-pannel-description.png')}
-                    resizeMode='contain'
+                    resizeMode='stretch'
                 >
                     <Text
                         style={{
-                            fontSize: 18,
+                            fontSize: Dimensions.get('window').width / 35,
                             fontFamily: 'Pacifico',//Platform.OS==='ios'?'Pacifico':"r0c0i - Linotte Bold",
                             color: '#000',
                         }}
@@ -311,7 +312,7 @@ export default class Courses extends Component {
                     <Text
                         style={{
                             color: '#000',
-                            fontSize: 12,
+                            fontSize: Dimensions.get('window').width / 60,
                         }}
                     >
                         Chúng ta cùng bắt đầu thử thách nhé!
@@ -345,11 +346,11 @@ const styles = StyleSheet.create({
     viewText: {
         position: 'absolute',
         paddingLeft: 25,
-        width: '45%',
-        height: '20%',
+        width: Dimensions.get('window').width / 2.5,//'45%',
+        height: Dimensions.get('window').height / 6.5,//'20%',
         justifyContent: 'center',
-        left: 150,
-        bottom: 50
+        left: Dimensions.get('window').width / 5 + 5,
+        bottom: 50,
         // backgroundColor: '#FFF'
     },
     logo: {

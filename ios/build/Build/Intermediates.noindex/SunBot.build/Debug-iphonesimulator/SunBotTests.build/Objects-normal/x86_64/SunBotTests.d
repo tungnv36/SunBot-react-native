@@ -1,13 +1,13 @@
 dependencies: \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/SunBotTests/SunBotTests.m \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/SunBotTests/SunBotTests.m \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h

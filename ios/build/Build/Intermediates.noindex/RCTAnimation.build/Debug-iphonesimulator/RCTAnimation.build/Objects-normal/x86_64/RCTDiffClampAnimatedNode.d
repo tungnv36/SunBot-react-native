@@ -1,9 +1,9 @@
 dependencies: \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDiffClampAnimatedNode.m \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDiffClampAnimatedNode.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDiffClampAnimatedNode.m \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTDiffClampAnimatedNode.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h

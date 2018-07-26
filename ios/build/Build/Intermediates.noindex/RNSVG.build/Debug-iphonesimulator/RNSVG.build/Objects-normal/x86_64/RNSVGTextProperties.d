@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native-svg/ios/Text/RNSVGTextProperties.m \
-  /Users/tima/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native-svg/ios/Text/RNSVGTextProperties.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native-svg/ios/Text/RNSVGTextProperties.m \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native-svg/ios/Text/RNSVGTextProperties.h

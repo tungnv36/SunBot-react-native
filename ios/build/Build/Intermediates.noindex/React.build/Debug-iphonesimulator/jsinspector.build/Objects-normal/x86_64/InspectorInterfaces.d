@@ -1,3 +1,3 @@
 dependencies: \
-  /Volumes/DATA/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
-  /Volumes/DATA/Desktop/Projects/MyProjects/SunBotGit/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
+  /Volumes/DATA/Project/Sunbot/Sunbot-react-native/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h

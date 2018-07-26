@@ -100,10 +100,10 @@ class DrawSquare extends Component {
                                 width: w,
                                 height: h,
                                 position: 'absolute',
-                                left: -1,
-                                top: -1,
-                                bottom: 1,
-                                right: 1
+                                left: 0,
+                                top: 0,
+                                // bottom: 0,
+                                // right: 0
                             }}
                             source={{ uri: `${this.props.img}?w=${w}&h=${h}` }}
                             resizeMode='stretch'
@@ -917,7 +917,7 @@ export default class GamePlay extends Component {
                 />
                 <Text
                     style={{
-                        fontSize: 24,
+                        fontSize: Dimensions.get('window').width / 30,
                         fontFamily: 'Pacifico',//Platform.OS==='ios'?'Pacifico':"r0c0i - Linotte Bold",
                         fontWeight: 'bold',
                         color: '#000000'//'#1A67EB'//'#032730'
@@ -927,7 +927,7 @@ export default class GamePlay extends Component {
                                 </Text>
                 <Text
                     style={{
-                        fontSize: 20,
+                        fontSize: Dimensions.get('window').width / 30,
                         fontFamily: 'Pacifico',//Platform.OS==='ios'?'Pacifico':"r0c0i - Linotte Bold",
                         fontWeight: 'bold',
                         color: '#000000'//'#1A67EB'//'#032730'
@@ -1007,7 +1007,7 @@ export default class GamePlay extends Component {
                 />
                 <Text
                     style={{
-                        fontSize: 24,
+                        fontSize: Dimensions.get('window').width / 30,
                         fontFamily: 'Pacifico',//Platform.OS==='ios'?'Pacifico':"r0c0i - Linotte Bold",
                         fontWeight: 'bold',
                         color: '#000000'//'#1A67EB'//'#032730'
@@ -1017,7 +1017,7 @@ export default class GamePlay extends Component {
                                 </Text>
                 <Text
                     style={{
-                        fontSize: 20,
+                        fontSize: Dimensions.get('window').width / 30,
                         fontFamily: 'Pacifico',//Platform.OS==='ios'?'Pacifico':"r0c0i - Linotte Bold",
                         fontWeight: 'bold',
                         color: '#000000'//'#1A67EB'//'#032730'
@@ -1370,7 +1370,7 @@ export default class GamePlay extends Component {
                         </TouchableOpacity>
                         <Text
                             style={{
-                                fontSize: 20,
+                                fontSize: Dimensions.get('window').width / 50,
                                 color: '#FFF',
                                 fontWeight: 'bold',
                             }}
@@ -1399,7 +1399,7 @@ export default class GamePlay extends Component {
                                 marginTop: 5,
                                 marginBottom: 10,
                                 fontWeight: 'bold',
-                                fontSize: 14
+                                fontSize: Dimensions.get('window').width / 50
                             }}
                         >
                             Nhiệm vụ
@@ -1414,6 +1414,7 @@ export default class GamePlay extends Component {
                             <Text
                                 style={{
                                     textAlign: 'center',
+                                    fontSize: Dimensions.get('window').width / 60
                                 }}
                             >
                                 {this.state.description}
@@ -1606,7 +1607,7 @@ const styles = StyleSheet.create({
         // padding: 5
     },
     viewDescription: {
-        width: '90%',
+        width: '100%',//90%
         height: 3 * Dimensions.get('window').height / 8,
         marginTop: 5,
         padding: 5,
