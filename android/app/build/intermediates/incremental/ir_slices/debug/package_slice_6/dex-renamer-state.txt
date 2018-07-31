@@ -1,4 +1,0 @@
-#Thu Jul 26 22:02:12 ICT 2018
-base.0=/Volumes/DATA/Project/Sunbot/Sunbot-react-native/android/app/build/intermediates/transforms/dexMerger/debug/6
-path.0=classes.dex
-renamed.0=classes.dex

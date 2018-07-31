@@ -1516,6 +1516,10 @@
         "source": "/Users/mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f7e7adb928c2465391f8c1d26e649abd/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "/Volumes/DATA/Project/Sunbot/Sunbot-react-native/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_light.png.flat",
+        "source": "/Volumes/DATA/Project/Sunbot/Sunbot-react-native/android/app/src/main/res/drawable-mdpi/assets_light.png"
+    },
+    {
         "merged": "/Volumes/DATA/Project/Sunbot/Sunbot-react-native/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_icreplay.png.flat",
         "source": "/Volumes/DATA/Project/Sunbot/Sunbot-react-native/android/app/src/main/res/drawable-mdpi/src_assets_icreplay.png"
     },

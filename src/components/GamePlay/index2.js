@@ -29,6 +29,7 @@ import CallApi from '../../Api/CallApi'
 
 const w = 7 * (Dimensions.get('window').width - 45) / 80
 const h = 9 * (Dimensions.get('window').height - 10) / 80
+const sizeTarget = 27 * (Dimensions.get('window').height - 10) / 80
 const startX = 5
 const startY = 5
 const wBot = 3 * h / 4//9 * (Dimensions.get('window').height - 10) / 80
@@ -69,46 +70,60 @@ class DrawSquare extends Component {
                     justifyContent: 'center',
                 }}
             >
-                {
-                    this.props.type === 4 ? <View/>:
-                    this.props.type === 100 || this.props.type === sunBotType || this.props.img === '' || this.props.img === ' ' ?
-                    <View
-                        style={{
-                            width: w,
-                            height: h,
-                            borderRadius: 5
-                        }}
-                    >
-                        <View
-                            style={{
-                                width: w - 2,
-                                height: h - 2,
-                                backgroundColor: this.props.row % 2 === 0 ? this.props.index % 2 === 0 ? 'rgba(255, 255, 255, 0.3)' : 'rgba(255, 255, 255, 0.6)' : this.props.index % 2 === 0 ? 'rgba(255, 255, 255, 0.6)' : 'rgba(255, 255, 255, 0.3)',
-                                borderRadius: 5
-                            }}
-                        />
-                    </View> :
-                    <View
-                        style={{
-                            width: w,
-                            height: h,
-                            borderRadius: 5
-                        }}
-                    >
+                {/* {
+                    this.props.type !== 2 ? <View /> :
                         <Image
                             style={{
-                                width: w,
-                                height: h,
+                                width: w * 3,
+                                height: h * 3,
                                 position: 'absolute',
-                                left: 0,
-                                top: 0,
-                                // bottom: 0,
-                                // right: 0
+                                left: -w,
+                                top: -h
                             }}
-                            source={{ uri: `${this.props.img}?w=${w}&h=${h}` }}
+                            source={require('../../../assets/light.png')}
                             resizeMode='stretch'
                         />
-                    </View>
+                } */}
+                {
+                    this.props.type === 4 ? <View /> :
+                        this.props.type === 100 || this.props.type === sunBotType || this.props.img === '' || this.props.img === ' ' ?
+                            <View
+                                style={{
+                                    width: w,
+                                    height: h,
+                                    borderRadius: 5
+                                }}
+                            >
+                                <View
+                                    style={{
+                                        width: w - 2,
+                                        height: h - 2,
+                                        backgroundColor: this.props.row % 2 === 0 ? this.props.index % 2 === 0 ? 'rgba(255, 255, 255, 0.3)' : 'rgba(255, 255, 255, 0.6)' : this.props.index % 2 === 0 ? 'rgba(255, 255, 255, 0.6)' : 'rgba(255, 255, 255, 0.3)',
+                                        borderRadius: 5
+                                    }}
+                                />
+                            </View> :
+                            <View
+                                style={{
+                                    width: w,
+                                    height: h,
+                                    borderRadius: 5
+                                }}
+                            >
+                                <Image
+                                    style={{
+                                        width: w,
+                                        height: h,
+                                        position: 'absolute',
+                                        left: 0,
+                                        top: 0,
+                                        // bottom: 0,
+                                        // right: 0
+                                    }}
+                                    source={{ uri: `${this.props.img}?w=${w}&h=${h}` }}
+                                    resizeMode='stretch'
+                                />
+                            </View>
                 }
             </View>
         )
@@ -129,6 +144,8 @@ export default class GamePlay extends Component {
             posBeginY: 0,
             posBotX: new Animated.Value(w * 0 + w / 2 - wBot / 2 + startX),
             posBotY: new Animated.Value(h * 0 + h / 2 - hBot / 2 + startY),
+            posTargetX: 0,
+            posTargetY: 0,
             posSelected: new Animated.Value(0),
             marginEndGame: new Animated.Value(0),
             iAnimated: new Animated.Value(0),
@@ -191,6 +208,8 @@ export default class GamePlay extends Component {
         const taskGet = await api.getMap(key, level)
         var posX = 0
         var posY = 0
+        var targetX = 0
+        var targetY = 0
         var src = ''
         console.log('KKKK', taskGet)
         if (taskGet.ok) {
@@ -228,6 +247,10 @@ export default class GamePlay extends Component {
                         posY = parseInt(data.impediments[j].indexOfCell / this.state.numOfCol)
                         src = `${data.impediments[j].imageUrl}?w=${w}&h=${h}`
                     }
+                    if (data.impediments[j].type === finishType) {
+                        targetX = data.impediments[j].indexOfCell % this.state.numOfCol
+                        targetY = parseInt(data.impediments[j].indexOfCell / this.state.numOfCol)
+                    }
                 }
 
                 // for (let i = 0; i < data.length; i++) {
@@ -256,7 +279,7 @@ export default class GamePlay extends Component {
                 //             src.push(`${data[i].impediments[j].imageUrl}?w=${w}&h=${h}`)
                 //         }
                 //     }
-                    
+
                 //     items.push({
                 //         item,
                 //         description: data[i].description,
@@ -271,10 +294,12 @@ export default class GamePlay extends Component {
                         impediments: item,
                         posBeginX: posX,
                         posBeginY: posY,
+                        posTargetX: targetX,
+                        posTargetY: targetY,
                         src,
                         firstData: { key: '0', style: 'first', c: posX, r: posY, d: 0, src: require('../../../assets/ic-up.png') },
                     }, () => {
-                        console.log('impediments2', this.state.impediments)
+                        console.log('impediments2', this.state.posTargetX + " - " + this.state.posTargetY)
                     })
                     setTimeout(() => {
                         this.setState({
@@ -669,7 +694,7 @@ export default class GamePlay extends Component {
     goTop() {
         var arr = this.state.itemGo
         var item = this.state.firstData
-        if(item.c === undefined || item.r === undefined) {
+        if (item.c === undefined || item.r === undefined) {
             return
         }
         if (arr.length > 0) {
@@ -709,7 +734,7 @@ export default class GamePlay extends Component {
     goLeft() {
         var arr = this.state.itemGo
         var item = this.state.firstData
-        if(item.c === undefined || item.r === undefined) {
+        if (item.c === undefined || item.r === undefined) {
             return
         }
         if (arr.length > 0) {
@@ -731,7 +756,7 @@ export default class GamePlay extends Component {
     goRight() {
         var arr = this.state.itemGo
         var item = this.state.firstData
-        if(item.c === undefined || item.r === undefined) {
+        if (item.c === undefined || item.r === undefined) {
             return
         }
         if (arr.length > 0) {
@@ -753,7 +778,7 @@ export default class GamePlay extends Component {
     goBottom() {
         var arr = this.state.itemGo
         var item = this.state.firstData
-        if(item.c === undefined || item.r === undefined) {
+        if (item.c === undefined || item.r === undefined) {
             return
         }
         if (arr.length > 0) {
@@ -1193,7 +1218,17 @@ export default class GamePlay extends Component {
                     onResponderMove={this.onMove.bind(this)}
                     onResponderRelease={this.onRelease.bind(this)}
                 />
-
+                <Animated.Image
+                    style={{
+                        width: sizeTarget,
+                        height: sizeTarget,
+                        position: 'absolute',
+                        left: startX + this.state.posTargetX * w - (sizeTarget - w)/2,
+                        top: startY + (this.state.numOfCol - this.state.posTargetY - 1) * h - h,
+                    }}
+                    source={require('../../../assets/light.png')}
+                    resizeMode='stretch'
+                />
                 {this.state.impediments.length > 0 ? this.state.impediments.map((item, index) =>
                     <DrawSquare
                         col={item.indexOfCell % this.state.numOfCol}
