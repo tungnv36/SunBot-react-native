@@ -7,6 +7,8 @@ include ':react-native-immersive'
 project(':react-native-immersive').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-immersive/android')
 include ':react-native-blur'
 project(':react-native-blur').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-blur/android')
+//include ':react-native-custom-android-webview'
+//project(':react-native-custom-android-webview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-custom-android-webview/android')
 //include ':RNWebView', ':app'
 //project(':RNWebView').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview-android/android')
 include ':app'

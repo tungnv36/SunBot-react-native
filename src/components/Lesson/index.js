@@ -51,13 +51,6 @@ export default class Lesson extends Component {
                 }
             ).start()
         }, 100)
-
-        // this.getSlider()
-        // this.setState({
-        //     interval: setInterval(() => {
-        //         this.setState({ position: this.state.position === 2 ? 0 : this.state.position + 1 });
-        //     }, 2000)
-        // });
     }
 
     componentWillUnmount() {
@@ -106,6 +99,7 @@ export default class Lesson extends Component {
         const index = navigation.getParam('index', '0');
         const description = navigation.getParam('description', '');
         const content = navigation.getParam('content', '');
+        const linkWebUrl = navigation.getParam('linkWebUrl', '');
         return (
             <ImageBackground
                 style={styles.container}
@@ -191,7 +185,8 @@ export default class Lesson extends Component {
                         <TouchableOpacity
                             style={styles.menuButton}
                             onPress={() => navigate('Slide', {
-                                content
+                                // content,
+                                linkWebUrl
                             })}
                         >
                             <ImageBackground

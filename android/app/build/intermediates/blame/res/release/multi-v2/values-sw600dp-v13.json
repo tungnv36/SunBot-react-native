@@ -4,7 +4,7 @@
             "outputFile": "/Volumes/DATA/Project/Sunbot/Sunbot-react-native/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f7e7adb928c2465391f8c1d26e649abd/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/79d2a910a86e3451719ca97347b148a0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

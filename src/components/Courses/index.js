@@ -15,9 +15,9 @@ import {
 } from 'react-native'
 import Constant from '../../constants/Constant'
 import CallApi from '../../Api/CallApi'
-import { CLIENT_ERROR } from 'apisauce'
-import { BlurView, VibrancyView } from 'react-native-blur'
-import { PlaySound, StopSound, PlaySoundRepeat, PlaySoundMusicVolume } from 'react-native-play-sound'
+// import { CLIENT_ERROR } from 'apisauce'
+// import { BlurView, VibrancyView } from 'react-native-blur'
+// import { PlaySound, StopSound, PlaySoundRepeat, PlaySoundMusicVolume } from 'react-native-play-sound'
 import Immersive from 'react-native-immersive'
 
 export default class Courses extends Component {

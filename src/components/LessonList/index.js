@@ -78,7 +78,8 @@ export default class LessonList extends Component {
                         name: data[i].name,
                         background: data[i].background,
                         description: data[i].description,
-                        content: data[i].content
+                        content: data[i].content,
+                        linkWebUrl: data[i].linkWebUrl
                     })
                 }
                 console.log('items', items)
@@ -206,7 +207,8 @@ export default class LessonList extends Component {
                                         key: item.key,
                                         description: item.description,
                                         index: index + 1,
-                                        content: item.content
+                                        content: item.content,
+                                        linkWebUrl: item.linkWebUrl
                                     })}
                                 >
                                     <ImageBackground

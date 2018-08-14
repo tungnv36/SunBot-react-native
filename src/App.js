@@ -5,6 +5,9 @@
  */
 
 import React, { Component } from 'react';
+import {
+  View
+} from 'react-native'
 import Courses from './components/Courses/index'
 import LessonList from './components/LessonList/index'
 import RootNavigation from './navigations/RootNavigation'

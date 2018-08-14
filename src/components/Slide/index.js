@@ -10,49 +10,63 @@ import {
     StatusBar
 } from 'react-native'
 import Immersive from 'react-native-immersive'
+// import CustomWebView from 'react-native-custom-android-webview';
 // import HTML from 'react-native-render-html';
 // var WebViewAndroid = require('react-native-webview-android');
 
-const html = ``
+var html = ``
+var linkWebUrl = ``
 
 export default class Slide extends Component {
     constructor(props) {
         super(props)
+        this.state = {
+            url: ''
+        }
         const { navigation } = this.props;
-        const content = navigation.getParam('content', '');
-        console.log(content);
-        html = content
+        
         if (Platform.OS === 'android') {
             StatusBar.setHidden(true)
 
             Immersive.on()
             Immersive.setImmersive(true)
         }
+        
+    }
+
+    componentWillMount() {
+        
     }
 
     render() {
         const { goBack } = this.props.navigation
         const { navigation } = this.props;
         const content = navigation.getParam('content', '');
+        // const linkWebUrl = navigation.getParam('linkWebUrl', '');
         return (
             <View
                 style={styles.constain}
             >
-                <WebView
+                {/* <WebView
                     style={styles.constain}
-                    source={{ html, baseUrl: 'web/' }}
+                    source={{ html:'<p>Here I am</p>' }}
                     mixedContentMode='always'
+                /> */}
+                <WebView 
+                    style={styles.constain} 
+                    source={{uri: this.props.navigation.getParam('linkWebUrl', '')}}
+                    javaScriptEnabled = {true}
+                    domStorageEnabled = {true}
+                    startInLoadingState={false}
+                    // source={{uri: ''}}
+                    // source={{html: '<div>test test test test test test test test test test test</div>'}}
                 />
                 {/* <WebViewAndroid
                     ref="webViewAndroidSample"
                     javaScriptEnabled={true}
                     geolocationEnabled={false}
                     builtInZoomControls={false}
-                    // injectedJavaScript={this.javascriptToInject()}
-                    // onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
-                    // onNavigationStateChange={this.onNavigationStateChange}
-                    // onMessage={this.onMessage}
-                    url={html} // or use the source(object) attribute...
+                    url={'https://www.google.com'} // or use the source(object) attribute...
                     style={styles.constain} />
                 ); */}
                 {/* <HTML

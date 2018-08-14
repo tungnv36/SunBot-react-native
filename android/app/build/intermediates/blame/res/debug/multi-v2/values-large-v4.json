@@ -4,7 +4,7 @@
             "outputFile": "/Volumes/DATA/Project/Sunbot/Sunbot-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f7e7adb928c2465391f8c1d26e649abd/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/mac/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/5a9488ebfc88f5d92936092bf4d4f274/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
